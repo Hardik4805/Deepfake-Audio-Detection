@@ -1,0 +1,15 @@
+================ FINAL EVALUATION REPORT ================
+Model Evaluated: LightGBM (Optuna Tuned)
+Overall Accuracy: 99.91%
+F1 Score:         99.91%
+Equal Error Rate: 0.08%
+  EER Threshold:  0.7921
+
+Per-Class Accuracy:
+  - Genuine (Real) Speech: 99.88%
+  - Deepfake (Fake) Speech: 99.94%
+
+Confusion Matrix:
+[[6913 8]
+ [4 6935]]
+=========================================================
