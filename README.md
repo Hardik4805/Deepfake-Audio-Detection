@@ -10,7 +10,13 @@ The model was rigorously trained and cross-validated on a fully pooled, un-biase
 - **Genuine Recall/Accuracy:** 99.88%
 - **Deepfake Recall/Accuracy:** 99.94%
 
-*(Metrics comfortably surpass the >=80% Accuracy and <=12% EER thresholds).*
+### 📊 Confusion Matrix (Test Split)
+| | Predicted Genuine | Predicted Deepfake |
+|---|---|---|
+| **Actual Genuine** | 6913 | 8 |
+| **Actual Deepfake** | 4 | 6935 |
+
+*(Metrics comfortably surpass the >=80% Accuracy, <=12% EER, and >=75% Per-Class Accuracy thresholds).*
 
 ---
 
