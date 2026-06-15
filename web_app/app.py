@@ -55,7 +55,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-MODEL_PATH = '/Users/hardik/Desktop/Mars/Deepfake_Audio/models/lgbm_model.pkl'
+MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'models', 'lgbm_model.pkl')
 
 @st.cache_resource
 def load_model():
